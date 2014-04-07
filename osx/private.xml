@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<root>
+  <devicevendordef>
+    <vendorname>TypeMatrix</vendorname>
+    <vendorid>0x1e54</vendorid>
+  </devicevendordef>
+
+  <devicevendordef>
+    <vendorname>Anker</vendorname>
+    <vendorid>0x04d9</vendorid>
+  </devicevendordef>
+
+  <deviceproductdef>
+    <productname>TypeMatrix2030</productname>
+    <productid>0x2030</productid>
+  </deviceproductdef>
+
+  <deviceproductdef>
+    <productname>Anker8200AsKeyboard</productname>
+    <productid>0xfa50</productid>
+  </deviceproductdef>
+
+  <deviceproductdef>
+    <productname>Anker8200AsMouse</productname>
+    <productid>0xfa50</productid>
+  </deviceproductdef>
+  
+  <item>
+    <name>Anker Mouse Test</name>
+    <identifier>private.oogatta_anker</identifier>
+    <device_only>DeviceVendor::Anker,DeviceProduct::Anker8200AsKeyboard</device_only>
+    <autogen>__KeyToKey__ KeyCode::A, KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::B, KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::C, PointingButton::LEFT, KeyCode::ENTER, ModifierFlag::OPTION_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::D, KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L | ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::E, KeyCode::V, ModifierFlag::CONTROL_L</autogen>
+  </item>
+</root>

@@ -29,10 +29,11 @@
     <name>Anker Mouse Test</name>
     <identifier>private.oogatta_anker</identifier>
     <device_only>DeviceVendor::Anker,DeviceProduct::Anker8200AsKeyboard</device_only>
-    <autogen>__KeyToKey__ KeyCode::A, KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L</autogen>
-    <autogen>__KeyToKey__ KeyCode::B, KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::A, KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::B, KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L</autogen>
     <autogen>__KeyToKey__ KeyCode::C, PointingButton::LEFT, KeyCode::ENTER, ModifierFlag::OPTION_L</autogen>
     <autogen>__KeyToKey__ KeyCode::D, KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L | ModifierFlag::COMMAND_L</autogen>
     <autogen>__KeyToKey__ KeyCode::E, KeyCode::V, ModifierFlag::CONTROL_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::F, KeyCode::R, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L</autogen>
   </item>
 </root>

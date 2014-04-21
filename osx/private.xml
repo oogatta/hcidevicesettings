@@ -40,6 +40,7 @@
   <item>
     <name>Command Oneshot</name>
     <identifier>private.oogatta_oneshot</identifier>
+    <device_only>DeviceVendor::TypeMatrix,DeviceProduct::TypeMatrix2030</device_only>
     <autogen>__KeyToKey__ KeyCode::COMMAND_L, KeyCode::OPTION_L</autogen>
     <autogen>--KeyOverlaidModifier-- KeyCode::OPTION_L, KeyCode::COMMAND_L, KeyCode::JIS_EISUU</autogen>
     <autogen>--KeyOverlaidModifier-- KeyCode::OPTION_R, KeyCode::OPTION_R,  KeyCode::JIS_KANA</autogen>

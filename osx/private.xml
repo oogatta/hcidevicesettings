@@ -57,6 +57,14 @@
   </item>
 
   <item>
+    <name>Internal Oneshot</name>
+    <identifier>private.oogatta_internal_oneshot</identifier>
+    <device_only>DeviceVendor::Apple,DeviceProduct::AppleInternalKeyboardTrackpad</device_only>
+    <autogen>--KeyOverlaidModifier-- KeyCode::COMMAND_L, KeyCode::COMMAND_L, KeyCode::JIS_EISUU</autogen>
+    <autogen>--KeyOverlaidModifier-- KeyCode::COMMAND_R, KeyCode::COMMAND_R,  KeyCode::JIS_KANA</autogen>
+  </item>
+
+  <item>
     <name>Internal Only Dvorak</name>
     <identifier>private.oogatta_internal_dvorak</identifier>
     <device_only>DeviceVendor::Apple,DeviceProduct::AppleInternalKeyboardTrackpad</device_only>
